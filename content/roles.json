@@ -1,0 +1,15 @@
+{
+  "roles": ["frontend", "backend", "database", "mobile", "delivery", "qa", "security", "data", "integrations", "product", "ai"],
+  "matrix": {
+    "aa-eucoins": ["frontend", "backend", "database", "mobile", "delivery", "qa", "ai"],
+    "accounting-pro": ["frontend", "backend", "database", "delivery", "data", "ai"],
+    "devhub": ["frontend", "backend", "qa", "ai"],
+    "aura-browser": ["frontend", "backend", "security", "delivery", "ai"],
+    "my-time": ["frontend", "mobile", "qa", "ai"],
+    "cryptogemscanner": ["backend", "database", "data", "integrations", "ai"],
+    "cactusos": ["mobile", "security", "product", "ai"],
+    "najmo": ["frontend", "backend", "mobile", "data", "security", "qa", "integrations", "ai"],
+    "supply-lens": ["backend", "database", "data", "delivery", "ai"],
+    "vesna": ["frontend", "backend", "delivery", "ai"]
+  }
+}

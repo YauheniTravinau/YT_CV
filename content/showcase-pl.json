@@ -1,0 +1,444 @@
+[
+  {
+    "slug": "aa-eucoins",
+    "title": "A&A-EUcoins",
+    "category": "web",
+    "status": "live",
+    "year": "2026",
+    "summary": "Aukcyjny marketplace monet kolekcjonerskich: licytacje na żywo, katalog, panel sprzedawcy i administracja.",
+    "description": "Pełna droga od pomysłu do działającego produktu na prawdziwym serwerze: aukcje z licytacjami i maksymalną licytacją automatyczną, katalog z filtrami fasetowymi, koszyk per sprzedawca, checkout dla gości, spory z wgrywaniem dokumentów, czat zamówienia, faktury i prowizje sprzedawcy. Rozwijany jako główny projekt mojej własnej firmy.",
+    "highlights": [
+      "Aukcje na żywo: licytacje, autolicytacja, odpytywanie ceny co 5 sekund",
+      "Katalog z filtrami: kraj, metal, stan",
+      "Panel sprzedawcy: prowizje, faktury PDF, statystyki",
+      "Panel administracyjny z botami QA (buyer / seller / auditor) i testami obciążeniowymi",
+      "Docker, skrypty wdrożeń i kopii zapasowych"
+    ],
+    "stack": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind 4",
+      "PostgreSQL",
+      "Redis",
+      "Cloudflare R2",
+      "Docker",
+      "Expo / React Native"
+    ],
+    "links": {
+      "live": "https://aa-eucoins.de"
+    },
+    "screenshots": [
+      {
+        "src": "aa-eucoins-desktop.jpg",
+        "w": 1440,
+        "h": 900,
+        "caption": "Strona główna: aukcje i katalog"
+      },
+      {
+        "src": "aa-eucoins-mobile.jpg",
+        "w": 390,
+        "h": 844,
+        "caption": "Wersja mobilna"
+      }
+    ],
+    "metrics": [
+      [
+        "5 s",
+        "odświeżanie cen w licytacjach na żywo"
+      ],
+      [
+        "3",
+        "role botów QA: kupujący · sprzedawca · audytor"
+      ]
+    ]
+  },
+  {
+    "slug": "accounting-pro",
+    "title": "Accounting Pro",
+    "category": "desktop",
+    "status": "ready",
+    "year": "2026",
+    "summary": "Księgowość offline dla małych niemieckich firm: faktury, EÜR i eksport DATEV.",
+    "description": "Aplikacja desktopowa na prawdziwy rynek: faktury z eksportem PDF, automatyczny paragraf §19 UStG dla Kleinunternehmer, pulpit z obrotem, wydatkami i zyskiem, EÜR z kosztem towaru, eksport DATEV dla Steuerberatera, magazyn z eksportem Excel i dziennik zmian. Sam z niej korzystam do księgowości swojej firmy.",
+    "highlights": [
+      "Faktury RE-2026-0001 z eksportem PDF i archiwum dokumentów",
+      "EÜR z COGS i eksport DATEV dla doradcy podatkowego",
+      "Pulpit: obrót, marża, limit Kleinunternehmer",
+      "Trzy języki interfejsu: DE · RU · EN",
+      "Wersja portable i instalator Inno Setup"
+    ],
+    "stack": [
+      "Go",
+      "Wails v2",
+      "React",
+      "TypeScript",
+      "SQLite",
+      "Inno Setup"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "accounting-desktop.jpg",
+        "w": 1600,
+        "h": 875,
+        "caption": "Towary: magazyn, ceny i historia sprzedaży"
+      }
+    ],
+    "metrics": [
+      [
+        "3",
+        "języki interfejsu: DE · RU · EN"
+      ],
+      [
+        "2",
+        "wersje: przenośna + instalator"
+      ]
+    ]
+  },
+  {
+    "slug": "devhub",
+    "title": "DevHub",
+    "category": "desktop",
+    "status": "ready",
+    "year": "2026",
+    "summary": "Jedno centrum lokalnego developmentu dla Windows: wszystkie projekty i usługi w jednym oknie.",
+    "description": "Narzędzie, które zbudowałem do własnej pracy z dziesiątkami projektów: automatyczne wykrywanie stosu (Node, PHP, Laravel, Django, Flask, .NET, Docker), uruchamianie i zatrzymywanie usług z zależnościami, wbudowany terminal i profile w lokalnej bazie. Wydanie 1.1.2 z testami smoke, launch i e2e.",
+    "highlights": [
+      "Automatyczne wykrywanie komend: npm, pnpm, yarn, bun, artisan, runserver, dotnet, Docker Compose",
+      "Usługi z zależnościami: start w kolejności, zatrzymanie drzewa procesów",
+      "Wbudowany terminal na node-pty + xterm",
+      "Skanowanie folderów do 2 poziomów / 80 katalogów",
+      "Testy smoke / launch / e2e, w tym 40 projektów testowych"
+    ],
+    "stack": [
+      "Electron 33",
+      "React 18",
+      "TypeScript",
+      "node-pty",
+      "xterm",
+      "sql.js"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "devhub-desktop.jpg",
+        "w": 1600,
+        "h": 875,
+        "caption": "Lista 136 lokalnych projektów z filtrami"
+      }
+    ],
+    "metrics": [
+      [
+        "8",
+        "automatycznie wykrywanych runnerów (npm … Docker Compose)"
+      ],
+      [
+        "40",
+        "projektów testowych w zestawie e2e"
+      ],
+      [
+        "80",
+        "skanowanych katalogów, 2 poziomy"
+      ]
+    ]
+  },
+  {
+    "slug": "aura-browser",
+    "title": "Aura Browser",
+    "category": "desktop",
+    "status": "ready",
+    "year": "2026",
+    "summary": "Prywatna przeglądarka dla Windows: izolowane karty i ochrona przed fingerprintingiem.",
+    "description": "„Jesteś wszędzie. Nie ma Cię nigdzie” — przeglądarka z izolowanymi profilami kart (Trusted / Tabs / Archive), świeżym fingerprintem dla każdej sesji anonimowej, „wypalaniem” profilu jednym skrótem, inteligentnymi zakładkami z kategoriami i sekcją dawno nieużywanych. Gotowy produkt z instalatorem i wersją portable.",
+    "highlights": [
+      "Izolowane profile kart z osobnymi danymi",
+      "Sesje anonimowe ze świeżym fingerprintem",
+      "Wypalenie profilu jednym skrótem Ctrl+W",
+      "Inteligentne zakładki: kategorie i „dawno nieużywane”",
+      "Instalator NSIS + portable"
+    ],
+    "stack": [
+      "Electron 33",
+      "better-sqlite3",
+      "electron-builder"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "aura-desktop.jpg",
+        "w": 1600,
+        "h": 875,
+        "caption": "Ekran startowy: szybkie wejście i sesja anonimowa"
+      }
+    ],
+    "metrics": [
+      [
+        "1",
+        "skrót (Ctrl+W) spala profil"
+      ],
+      [
+        "2",
+        "instalatory: NSIS + przenośny"
+      ]
+    ]
+  },
+  {
+    "slug": "my-time",
+    "title": "MY TIME",
+    "category": "web",
+    "status": "ready",
+    "year": "2026",
+    "summary": "Offline tracker czasu „jednym tapnięciem”: timer, plany, cele i nastrój.",
+    "description": "Aplikacja o uczciwym mierzeniu czasu bez presji: jedno tapnięcie kategorii i czas płynie, plany i fakty żyją osobno, nastrój i pytanie dnia pomagają zauważać to ważne. W pełni offline: dane zostają na urządzeniu. Pokryta 49 testami jednostkowymi, zbudowana jako aplikacja Android przez Capacitor.",
+    "highlights": [
+      "Timer na timestampach: pauzy i atomowa zmiana kategorii",
+      "Plany z powtórzeniami i porównaniem „plan / fakt”",
+      "Zadania 2 / 5 / 10 minut i checki rzeczywistości",
+      "49 testów jednostkowych (Vitest), eksport JSON / CSV",
+      "Build Android przez Capacitor"
+    ],
+    "stack": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Zustand",
+      "Capacitor",
+      "Vitest"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "mytime-mobile.jpg",
+        "w": 390,
+        "h": 844,
+        "caption": "Ekran „Dziś”: kategorie i nastrój"
+      },
+      {
+        "src": "mytime-desktop.jpg",
+        "w": 1100,
+        "h": 688,
+        "caption": "Onboarding w wersji web"
+      }
+    ],
+    "metrics": [
+      [
+        "49",
+        "testów jednostkowych (Vitest)"
+      ],
+      [
+        "3",
+        "długości questów: 2 · 5 · 10 min"
+      ],
+      [
+        "2",
+        "formaty eksportu: JSON · CSV"
+      ]
+    ]
+  },
+  {
+    "slug": "cryptogemscanner",
+    "title": "CryptoGemScanner",
+    "category": "web",
+    "status": "live",
+    "year": "2025—2026",
+    "summary": "Serwis sygnałów krypto: skan nowych listingów, scoring momentu i auto-publikacja na Telegramie.",
+    "description": "System obserwuje nowe listingi przez API CoinMarketCap i CryptoCompare, liczy scoring momentu (cena, wolumen, dynamika), publikuje sygnały z celami TP1/TP2 i stopem SL, prowadzi „strefę ryzyka” opublikowanych monet oraz dziennik transakcji z PnL. Działa jako strona i jako aplikacja desktopowa na Windows.",
+    "highlights": [
+      "Prawdziwe dane API: CoinMarketCap, CryptoCompare",
+      "Scoring jakości sygnałów i moment (oceny A/B/C)",
+      "Monitoring „strefy ryzyka”: alerty soft/hard",
+      "Automatyczne posty na Telegramie: TP1/TP2/SL",
+      "Dziennik transakcji SQLite z PnL i panel Flask"
+    ],
+    "stack": [
+      "Python",
+      "Flask",
+      "Integracje API",
+      "Telegram Bot API",
+      "PyQt6",
+      "PyInstaller"
+    ],
+    "links": {
+      "live": "https://cryptogemscanner.com"
+    },
+    "screenshots": [
+      {
+        "src": "cryptogem-desktop.jpg",
+        "w": 1440,
+        "h": 900,
+        "caption": "Pulpit sygnałów na żywo"
+      },
+      {
+        "src": "cryptogem-mobile.jpg",
+        "w": 390,
+        "h": 844,
+        "caption": "Wersja mobilna"
+      }
+    ],
+    "metrics": [
+      [
+        "2",
+        "API danych rynkowych"
+      ],
+      [
+        "A/B/C",
+        "oceny jakości sygnałów"
+      ]
+    ]
+  },
+  {
+    "slug": "cactusos",
+    "title": "CactusOS",
+    "category": "android",
+    "status": "prototype",
+    "year": "2026",
+    "summary": "Case study projektowy: privacy-first ROM Android dla Xiaomi Redmi 6A — specyfikacja i klikalny prototyp.",
+    "description": "Projekt o tym, jak uczynić telefon zaufanym dla pracowników małej firmy: specyfikacja v1.0 (Dual-SIM, pracownicy z PIN-em, przestrzenie OSOBISTE/PRACA, panel uprawnień ZABLOKOWANE→ZAPYTAJ→DOZWOLONE, zero telemetrii, SELinux enforcing i FBE na bazie LineageOS) plus interaktywny prototyp HTML interfejsu z ekranami blokady, ludzi, ustawień i SMS-ów.",
+    "highlights": [
+      "Specyfikacja v1.0 „approved baseline”",
+      "Klikalny prototyp UI: RU / EN",
+      "Model „pracownik + właściciel” z PIN-ami i przestrzeniami",
+      "Zero telemetrii i bez konta Google",
+      "Baza: Android 11 / LineageOS 18.1, kernel 4.9"
+    ],
+    "stack": [
+      "Specyfikacja",
+      "Prototyp HTML",
+      "Android / LineageOS research"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "cactusos-phone.jpg",
+        "w": 736,
+        "h": 1536,
+        "caption": "Ekran blokady: wybór pracownika"
+      }
+    ],
+    "metrics": [
+      [
+        "v1.0",
+        "zatwierdzona specyfikacja"
+      ],
+      [
+        "2",
+        "języki prototypu: RU · EN"
+      ],
+      [
+        "0",
+        "telemetrii, bez konta Google"
+      ]
+    ]
+  },
+  {
+    "slug": "najmo",
+    "title": "NAJMO",
+    "category": "android",
+    "status": "private",
+    "year": "2026",
+    "summary": "System SMS dla lokalnego biznesu: operator na PC, aplikacja Android na 2 SIM i panel klienta.",
+    "description": "Działający system v3.5: łańcuchy SMS po polsku z poprawną odmianą dzielnic, limity i okna wysyłki, obsługa STOP, analityka lejka 14 dni po dniach i listach, raporty Excel/TXT/CSV oraz samorozkrywający się APK. Panel klienta z hasłem, ochroną CSRF i dziennikiem audytu.",
+    "highlights": [
+      "Aplikacja Android (APK) wysyłająca przez 2 SIM po USB",
+      "Polska odmiana w treściach: 100 par „kod-dzielnica”",
+      "Limity 300 SMS/dobę na SIM i okno 09:00–20:00",
+      "Analityka lejka 14 dni: po godzinach, listach, SIM",
+      "Panel klienta: CSRF, audit-log, blokada zgadywania hasła"
+    ],
+    "stack": [
+      "Node.js 22",
+      "React",
+      "Android APK",
+      "Raporty Excel",
+      "ngrok"
+    ],
+    "links": {},
+    "screenshots": [],
+    "metrics": [
+      [
+        "300",
+        "SMS dziennie na kartę SIM"
+      ],
+      [
+        "14",
+        "dni analityki lejka"
+      ],
+      [
+        "100",
+        "par kod–dzielnica z odmianą"
+      ]
+    ]
+  },
+  {
+    "slug": "supply-lens",
+    "title": "Supply Lens",
+    "category": "desktop",
+    "status": "private",
+    "year": "2026",
+    "summary": "Narzędzie kupca: baza chińskich dostawców, import cenników i porównywanie cen.",
+    "description": "Aplikacja desktopowa do porównywania cenników dostawców: parsowanie wierszy z parametrami i ceną, szybki import przez Ctrl+V, porównanie między dostawcami z podświetleniem najlepszej ceny, pełny koszt z cłem, dostawą i prowizją, eksport do Excel i zdjęcia faktur.",
+    "highlights": [
+      "Parsowanie wierszy cennika: seria, CPU, RAM, SSD, GPU, ekran, cena",
+      "Porównanie dostawców z podświetleniem najlepszej ceny",
+      "Pełny koszt: cło, dostawa, prowizja",
+      "Zdjęcia faktur i eksport Excel",
+      "Ciemny i jasny motyw, instalator v1.1"
+    ],
+    "stack": [
+      "Python",
+      "PySide6",
+      "SQLite",
+      "openpyxl",
+      "PyInstaller",
+      "Inno Setup"
+    ],
+    "links": {},
+    "screenshots": [],
+    "metrics": [
+      [
+        "7",
+        "pól parsowanych z linii cenowej"
+      ],
+      [
+        "v1.1",
+        "wydanie instalatora"
+      ]
+    ]
+  },
+  {
+    "slug": "vesna",
+    "title": "VESNA",
+    "category": "ai",
+    "status": "prototype",
+    "year": "2026",
+    "summary": "Lokalny agent AI do programowania: jak Cursor, ale w całości na własnym sprzęcie, bez chmury.",
+    "description": "Eksperyment v0.6: agent z narzędziami read/patch/grep/shell/git/web działa na wbudowanym llama.cpp z lokalnymi modelami (Qwen2.5-Coder, DeepSeek Coder). Sześć trybów — od szybkiego pytania po zespół czterech agentów (Multi) — plus piaskownica training-lab do autonomicznej nauki i interfejs web.",
+    "highlights": [
+      "6 trybów: Agent, Explore, Quick, Plan, Execute, Multi",
+      "Narzędzia: pliki, patche, grep, shell, pytest, git, web",
+      "Lokalne modele przez llama.cpp — bez chmury",
+      "Training-lab: piaskownica autonomicznej nauki",
+      "Web-UI (FastAPI) + desktop (pywebview), instalator"
+    ],
+    "stack": [
+      "Python",
+      "llama-cpp-python",
+      "FastAPI",
+      "pywebview",
+      "PyInstaller"
+    ],
+    "links": {},
+    "screenshots": [],
+    "metrics": [
+      [
+        "6",
+        "trybów agenta"
+      ],
+      [
+        "0",
+        "wywołań chmury — tylko lokalne modele"
+      ]
+    ]
+  }
+]

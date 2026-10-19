@@ -1,0 +1,743 @@
+{
+  "en": {
+    "title": "Yauheni Travinau — AI, development & automation",
+    "description": "Portfolio of Yauheni Travinau in Wrocław. Explore web products, Windows applications and automation, with an interactive lightweight 3D playground.",
+    "skip": "Skip to content",
+    "nav": [
+      "Work",
+      "Playground",
+      "About",
+      "Contact"
+    ],
+    "menu": "Menu",
+    "location": "Wrocław, Poland",
+    "eyebrow": "INDEPENDENT BUILDER · AI / WEB / AUTOMATION",
+    "hero": [
+      "Ideas into",
+      "working",
+      "things."
+    ],
+    "intro": "I'm Yauheni. I connect curiosity, code and AI to build digital products that solve real problems.",
+    "work": "Explore my work",
+    "cv": "Download CV",
+    "cvNote": "CV · Polish · PDF · 2 pages",
+    "scroll": "SCROLL TO EXPLORE",
+    "sceneTitle": "A little character. A lot of curiosity.",
+    "drag": "Drag to turn. Release to keep spinning.",
+    "pause": "Pause",
+    "play": "Play",
+    "reset": "Reset view",
+    "character": "Character",
+    "core": "3D core",
+    "viewer": "Interactive 360-degree scene",
+    "stageNote": "Original character · photo-based 2.5D · interpolated rotation",
+    "strip": [
+      "Practical AI",
+      "Web products",
+      "Automation",
+      "Windows tools"
+    ],
+    "projectsLabel": "01 / SELECTED WORK",
+    "projectsTitle": "Built to be used.",
+    "projectsIntro": "Real problems, personal projects and the decisions behind them. Open a case study to see how I approached the work.",
+    "all": "All work",
+    "filters": [
+      "Web & API",
+      "Desktop",
+      "Experiments"
+    ],
+    "case": "Explore case study",
+    "close": "Close case study",
+    "problem": "The problem",
+    "solution": "The approach",
+    "role": "My contribution",
+    "stack": "Tools & technologies",
+    "learned": "What I learned",
+    "visit": "Visit project",
+    "private": "Personal tool",
+    "reference": "Author's project link",
+    "prototype": "Experiment",
+    "source": "Public repositories",
+    "illustration": "Concept artwork · not a product screenshot",
+    "labLabel": "02 / INTERACTION LAB",
+    "labTitle": "Small footprint.\nAnother dimension.",
+    "labIntro": "An interactive 3D object built from six HTML faces. Change the accent, rotate the core, or turn movement off. A visual experiment with no 3D engine to download.",
+    "accent": "Accent color",
+    "violet": "Violet",
+    "cyan": "Cyan",
+    "lime": "Lime",
+    "rotation": "Rotation",
+    "motion": "Motion",
+    "labHint": "Drag the core or use the rotation slider",
+    "labMeta": [
+      "CSS transforms",
+      "Pointer events",
+      "Reduced motion"
+    ],
+    "aboutLabel": "03 / THE PERSON BEHIND THE PROJECTS",
+    "aboutTitle": "Curiosity is my\nstarting point.",
+    "aboutIntro": "Practical thinking. Independent learning. Ownership of the result.",
+    "approach": "How I work with AI",
+    "experience": "Experience",
+    "education": "Education",
+    "languages": "Languages",
+    "skills": "My toolkit",
+    "journey": [
+      "Understand",
+      "Research",
+      "Prototype",
+      "Test",
+      "Use"
+    ],
+    "contactLabel": "04 / LET'S CONNECT",
+    "contactTitle": "Have a problem\nworth solving?",
+    "contactIntro": "I'm looking for an opportunity to grow in AI and automation and contribute to real products. Let's talk about what we can build.",
+    "email": "Email me",
+    "copy": "Copy email",
+    "copied": "Email copied",
+    "copyFailed": "Please copy: j.travinov@gmail.com",
+    "footer": "Designed to be explored. Built to stay lightweight.",
+    "top": "Back to top",
+    "motionOn": "Motion on",
+    "motionOff": "Motion off",
+    "nojs": "The portfolio and project details work without JavaScript. Enable JavaScript for interactive scenes.",
+    "notfound": "This page took a different path.",
+    "home": "Return to portfolio",
+    "sceneLoading": "Loading the photo scene…",
+    "sceneUnavailable": "Photo animation is unavailable. Static preview shown.",
+    "openToWork": "Open to work",
+    "live": "Live",
+    "statsLabel": "At a glance",
+    "stats": [
+      [
+        "02",
+        "Live products online"
+      ],
+      [
+        "02",
+        "Windows tools used daily"
+      ],
+      [
+        "10",
+        "Projects in the showcase"
+      ],
+      [
+        "03",
+        "Languages: EN · PL · RU"
+      ]
+    ],
+    "archLabel": "How it is built",
+    "aiHelped": "Where AI helped",
+    "verified": "What I verified myself",
+    "resultLabel": "Result",
+    "taughtLabel": "What it taught me",
+    "featured": "Featured",
+    "viewLive": "Open live site",
+    "strengths": "Strengths",
+    "processLabel": "My process",
+    "underHood": "Design notes",
+    "notesCount": "6 decisions",
+    "portfolio": {
+      "nav": "Showcase",
+      "title": "Projects showcase — Yauheni Travinau",
+      "description": "Ten real projects by Yauheni Travinau: live web products, Windows desktop tools, an Android design case and a local AI agent. Real screenshots and honest descriptions.",
+      "label": "SHOWCASE · 10 PROJECTS",
+      "heading": "Everything I built,\nin one place.",
+      "intro": "Six detailed case studies live on the main page. Here are all ten projects from my workspace — with real screenshots, stacks and honest status labels.",
+      "filters": [
+        "All",
+        "Web",
+        "Desktop",
+        "Android",
+        "AI"
+      ],
+      "featuredEyebrow": "Featured",
+      "featuredNote": "Desktop and mobile views of the same product.",
+      "highlights": "Highlights",
+      "shotsTitle": "Screenshots",
+      "status": {
+        "live": "Live",
+        "ready": "Ready",
+        "private": "Private",
+        "prototype": "Prototype"
+      },
+      "cta": "All 10 projects",
+      "ctaNote": "Screenshots · stacks · statuses",
+      "back": "Back to main page",
+      "note": "Every screenshot is taken from a real build. Private projects are described without exposing internal data.",
+      "statusNote": "No screenshots — the project is private or has no interface worth showing.",
+      "analytics": {
+        "label": "PORTFOLIO ANALYTICS",
+        "title": "The portfolio in numbers",
+        "intro": "Calculated automatically from the project data below — nothing is entered by hand.",
+        "projects": "projects",
+        "live": "live in production",
+        "technologies": "tools & technologies",
+        "platforms": "platforms",
+        "byPlatform": "By platform",
+        "byStatus": "By status",
+        "topTech": "Most used technologies",
+        "uses": "projects"
+      },
+      "moreDetails": "More details",
+      "fewer": "Hide details",
+      "keyNumbers": "Key numbers",
+      "legendTitle": "What the status labels mean",
+      "legend": {
+        "live": "running in production for real users",
+        "ready": "finished — can be installed and used",
+        "prototype": "working concept, not a release",
+        "private": "built for private or business use"
+      },
+      "team": {
+        "label": "ONE PERSON · MANY ROLES",
+        "title": "{n} roles. One author.",
+        "intro": "Most of these projects were built end to end by one person: idea, interface, server, data, tests and delivery. The matrix shows which engineering roles each project actually exercised.",
+        "big": [
+          [
+            "{n}",
+            "specialist roles a typical team would split this work across"
+          ],
+          [
+            "1",
+            "person who covered them across all {p} projects"
+          ]
+        ],
+        "matrixTitle": "Role coverage by project",
+        "projectsLabel": "projects",
+        "evidenceTitle": "Evidence from the projects",
+        "keyTitle": "Project key",
+        "caveat": "Honest framing: this shows breadth and end-to-end ownership — not that one person replaces a whole department. Depth differs by role, so verify it through the live products and the code.",
+        "roles": {
+          "frontend": "Frontend",
+          "backend": "Backend",
+          "database": "Databases",
+          "mobile": "Mobile / Android",
+          "delivery": "Delivery & deploy",
+          "qa": "QA & testing",
+          "security": "Security & privacy",
+          "data": "Data & analytics",
+          "integrations": "Integrations & automation",
+          "product": "Product & documentation",
+          "ai": "AI engineering"
+        },
+        "evidence": {
+          "frontend": "React, Next.js and TypeScript interfaces — A&A-EUcoins, MY TIME, NAJMO, DevHub.",
+          "backend": "Services in Next.js, Go, Node.js, Python/Flask and FastAPI.",
+          "database": "PostgreSQL and Redis (A&A-EUcoins); SQLite (Accounting Pro, CryptoGemScanner, Supply Lens).",
+          "mobile": "Expo / React Native, Capacitor, an Android APK that sends over 2 SIMs, an Android ROM design.",
+          "delivery": "Docker, deploy scripts and backups (A&A-EUcoins); Inno Setup and NSIS installers.",
+          "qa": "49 unit tests (MY TIME), 40 test projects in the e2e suite (DevHub), QA bots and load tests (A&A-EUcoins).",
+          "security": "CSRF, audit log and lockout (NAJMO); isolated profiles and fingerprint protection (Aura); privacy-first ROM design (CactusOS).",
+          "data": "EÜR and DATEV export (Accounting Pro); 14-day funnel analytics (NAJMO); signal scoring and a PnL journal (CryptoGemScanner); landed-cost comparison (Supply Lens).",
+          "integrations": "CoinMarketCap and CryptoCompare APIs, Telegram Bot API, SMS over Android, a client panel via ngrok.",
+          "product": "Specification v1.0 and a clickable prototype (CactusOS); written descriptions and stack notes for every project.",
+          "ai": "A local AI coding agent on llama.cpp (VESNA); AI-assisted development and debugging in all of them."
+        },
+        "cta": "See the full analytics",
+        "centerLabel": "roles",
+        "radarTitle": "Role coverage map",
+        "rankTitle": "Roles ranked by number of projects",
+        "rings": [
+          "of {n} roles covered",
+          "average roles per project",
+          "most roles in one project — {name}"
+        ]
+      }
+    }
+  },
+  "pl": {
+    "title": "Yauheni Travinau — AI, programowanie i automatyzacja",
+    "description": "Portfolio Yauheniego Travinau z Wrocławia. Projekty webowe, aplikacje Windows i automatyzacja oraz lekki interaktywny eksperyment 3D.",
+    "skip": "Przejdź do treści",
+    "nav": [
+      "Projekty",
+      "Laboratorium",
+      "O mnie",
+      "Kontakt"
+    ],
+    "menu": "Menu",
+    "location": "Wrocław, Polska",
+    "eyebrow": "TWÓRCA WŁASNYCH PROJEKTÓW · AI / WEB / AUTOMATYZACJA",
+    "hero": [
+      "Od pomysłu",
+      "do działania",
+      "z AI."
+    ],
+    "intro": "Jestem Yauheni. Łączę ciekawość, kod i AI, tworząc produkty cyfrowe, które rozwiązują konkretne problemy.",
+    "work": "Zobacz moje projekty",
+    "cv": "Pobierz CV",
+    "cvNote": "CV · polski · PDF · 2 strony",
+    "scroll": "PRZEWIŃ I ODKRYWAJ",
+    "sceneTitle": "Mała postać. Wielka ciekawość.",
+    "drag": "Przeciągnij, by obrócić. Puść — obrót będzie trwał dalej.",
+    "pause": "Pauza",
+    "play": "Odtwarzaj",
+    "reset": "Resetuj widok",
+    "character": "Postać",
+    "core": "Rdzeń 3D",
+    "viewer": "Interaktywna scena 360 stopni",
+    "stageNote": "Oryginalna postać · scena 2.5D ze zdjęć · interpolowany obrót",
+    "strip": [
+      "AI w praktyce",
+      "Produkty webowe",
+      "Automatyzacja",
+      "Narzędzia Windows"
+    ],
+    "projectsLabel": "01 / WYBRANE PROJEKTY",
+    "projectsTitle": "Tworzę, żeby używać.",
+    "projectsIntro": "Realne problemy, własne projekty i decyzje, które za nimi stoją. Otwórz opis, aby poznać moje podejście.",
+    "all": "Wszystkie",
+    "filters": [
+      "Web i API",
+      "Desktop",
+      "Eksperymenty"
+    ],
+    "case": "Poznaj projekt",
+    "close": "Zamknij opis projektu",
+    "problem": "Problem",
+    "solution": "Podejście",
+    "role": "Mój wkład",
+    "stack": "Narzędzia i technologie",
+    "learned": "Czego się nauczyłem",
+    "visit": "Otwórz projekt",
+    "private": "Własne narzędzie",
+    "reference": "Link autora do projektu",
+    "prototype": "Eksperyment",
+    "source": "Publiczne repozytoria",
+    "illustration": "Grafika koncepcyjna · nie zrzut aplikacji",
+    "labLabel": "02 / LABORATORIUM INTERAKCJI",
+    "labTitle": "Lekka forma.\nNowy wymiar.",
+    "labIntro": "Interaktywny obiekt 3D z sześciu ścian HTML. Zmień akcent, obróć rdzeń lub wyłącz ruch. Eksperyment wizualny bez pobierania silnika 3D.",
+    "accent": "Kolor akcentu",
+    "violet": "Fiolet",
+    "cyan": "Cyjan",
+    "lime": "Limonka",
+    "rotation": "Obrót",
+    "motion": "Ruch",
+    "labHint": "Przeciągnij rdzeń lub użyj suwaka obrotu",
+    "labMeta": [
+      "Transformacje CSS",
+      "Zdarzenia wskaźnika",
+      "Ograniczony ruch"
+    ],
+    "aboutLabel": "03 / CZŁOWIEK ZA PROJEKTAMI",
+    "aboutTitle": "Zaczynam\nod ciekawości.",
+    "aboutIntro": "Praktyczne myślenie. Samodzielna nauka. Odpowiedzialność za efekt.",
+    "approach": "Jak pracuję z AI",
+    "experience": "Doświadczenie",
+    "education": "Edukacja",
+    "languages": "Języki",
+    "skills": "Moje narzędzia",
+    "journey": [
+      "Zrozumienie",
+      "Research",
+      "Prototyp",
+      "Test",
+      "Użycie"
+    ],
+    "contactLabel": "04 / POROZMAWIAJMY",
+    "contactTitle": "Masz problem\nwart rozwiązania?",
+    "contactIntro": "Szukam możliwości rozwoju w AI i automatyzacji oraz pracy nad realnymi produktami. Porozmawiajmy o tym, co możemy stworzyć.",
+    "email": "Napisz do mnie",
+    "copy": "Kopiuj e-mail",
+    "copied": "E-mail skopiowany",
+    "copyFailed": "Skopiuj: j.travinov@gmail.com",
+    "footer": "Zaprojektowane do odkrywania. Stworzone z myślą o lekkości.",
+    "top": "Na górę",
+    "motionOn": "Ruch włączony",
+    "motionOff": "Ruch wyłączony",
+    "nojs": "Portfolio i opisy projektów działają bez JavaScript. Włącz JavaScript, aby korzystać z interaktywnych scen.",
+    "notfound": "Ta strona wybrała inną drogę.",
+    "home": "Wróć do portfolio",
+    "sceneLoading": "Wczytywanie sceny ze zdjęć…",
+    "sceneUnavailable": "Animacja zdjęć jest niedostępna. Wyświetlono podgląd statyczny.",
+    "openToWork": "Otwarty na propozycje",
+    "live": "Online",
+    "statsLabel": "W skrócie",
+    "stats": [
+      [
+        "02",
+        "Działające produkty online"
+      ],
+      [
+        "02",
+        "Narzędzia Windows w codziennym użyciu"
+      ],
+      [
+        "10",
+        "Projektów w galerii"
+      ],
+      [
+        "03",
+        "Języki: EN · PL · RU"
+      ]
+    ],
+    "archLabel": "Jak to jest zbudowane",
+    "aiHelped": "W czym pomogło AI",
+    "verified": "Co sprawdziłem sam",
+    "resultLabel": "Efekt",
+    "taughtLabel": "Czego mnie to nauczyło",
+    "featured": "Wyróżniony",
+    "viewLive": "Otwórz stronę",
+    "strengths": "Mocne strony",
+    "processLabel": "Mój proces",
+    "underHood": "Notatki projektowe",
+    "notesCount": "6 decyzji",
+    "portfolio": {
+      "nav": "Galeria",
+      "title": "Galeria projektów — Yauheni Travinau",
+      "description": "Dziesięć prawdziwych projektów Yauheniego Travinau: działające produkty webowe, narzędzia Windows, case study Android i lokalny agent AI. Prawdziwe zrzuty ekranu i szczere opisy.",
+      "label": "GALERIA · 10 PROJEKTÓW",
+      "heading": "Wszystko, co zbudowałem,\nw jednym miejscu.",
+      "intro": "Sześć opisów case study jest na stronie głównej. Tu są wszystkie dziesięć projektów z mojego środowiska pracy — z prawdziwymi zrzutami ekranu, stosami technologii i uczciwymi statusami.",
+      "filters": [
+        "Wszystkie",
+        "Web",
+        "Desktop",
+        "Android",
+        "AI"
+      ],
+      "featuredEyebrow": "Wyróżniony",
+      "featuredNote": "Widok desktopowy i mobilny tego samego produktu.",
+      "highlights": "Najważniejsze",
+      "shotsTitle": "Zrzuty ekranu",
+      "status": {
+        "live": "Online",
+        "ready": "Gotowy",
+        "private": "Prywatny",
+        "prototype": "Prototyp"
+      },
+      "cta": "Wszystkie 10 projektów",
+      "ctaNote": "Zrzuty · stacki · statusy",
+      "back": "Wróć do strony głównej",
+      "note": "Każdy zrzut pochodzi z prawdziwej wersji produktu. Projekty prywatne są opisane bez ujawniania danych wewnętrznych.",
+      "statusNote": "Bez zrzutów ekranu — projekt prywatny lub nie ma interfejsu wartego pokazania.",
+      "analytics": {
+        "label": "ANALITYKA PORTFOLIO",
+        "title": "Portfolio w liczbach",
+        "intro": "Liczone automatycznie z danych projektów poniżej — nic nie wpisuję ręcznie.",
+        "projects": "projektów",
+        "live": "działa produkcyjnie",
+        "technologies": "narzędzi i technologii",
+        "platforms": "platformy",
+        "byPlatform": "Według platformy",
+        "byStatus": "Według statusu",
+        "topTech": "Najczęściej używane technologie",
+        "uses": "projektów"
+      },
+      "moreDetails": "Więcej szczegółów",
+      "fewer": "Ukryj szczegóły",
+      "keyNumbers": "Kluczowe liczby",
+      "legendTitle": "Znaczenie statusów",
+      "legend": {
+        "live": "działa produkcyjnie dla prawdziwych użytkowników",
+        "ready": "gotowy — można zainstalować i używać",
+        "prototype": "działająca koncepcja, nie wydanie",
+        "private": "zbudowany do użytku własnego lub firmowego"
+      },
+      "team": {
+        "label": "JEDNA OSOBA · WIELE RÓL",
+        "title": "{n} ról. Jeden autor.",
+        "intro": "Większość tych projektów zbudowałem od początku do końca sam: pomysł, interfejs, serwer, dane, testy i wdrożenie. Macierz pokazuje, które role inżynierskie każdy projekt faktycznie wykorzystał.",
+        "big": [
+          [
+            "{n}",
+            "ról specjalistycznych, między które typowy zespół podzieliłby tę pracę"
+          ],
+          [
+            "1",
+            "osoba, która pokryła je we wszystkich {p} projektach"
+          ]
+        ],
+        "matrixTitle": "Pokrycie ról według projektów",
+        "projectsLabel": "projektów",
+        "evidenceTitle": "Dowody z projektów",
+        "keyTitle": "Legenda projektów",
+        "caveat": "Uczciwie: to pokazuje szerokość i odpowiedzialność za całość — nie to, że jedna osoba zastępuje cały dział. Głębokość jest różna w poszczególnych rolach, więc warto ją sprawdzić na działających produktach i w kodzie.",
+        "roles": {
+          "frontend": "Frontend",
+          "backend": "Backend",
+          "database": "Bazy danych",
+          "mobile": "Mobile / Android",
+          "delivery": "Wdrożenia i dostarczanie",
+          "qa": "QA i testy",
+          "security": "Bezpieczeństwo i prywatność",
+          "data": "Dane i analityka",
+          "integrations": "Integracje i automatyzacja",
+          "product": "Produkt i dokumentacja",
+          "ai": "Inżynieria AI"
+        },
+        "evidence": {
+          "frontend": "Interfejsy w React, Next.js i TypeScript — A&A-EUcoins, MY TIME, NAJMO, DevHub.",
+          "backend": "Usługi w Next.js, Go, Node.js, Python/Flask i FastAPI.",
+          "database": "PostgreSQL i Redis (A&A-EUcoins); SQLite (Accounting Pro, CryptoGemScanner, Supply Lens).",
+          "mobile": "Expo / React Native, Capacitor, aplikacja APK wysyłająca przez 2 karty SIM, projekt ROM-u Android.",
+          "delivery": "Docker, skrypty wdrożeniowe i kopie zapasowe (A&A-EUcoins); instalatory Inno Setup i NSIS.",
+          "qa": "49 testów jednostkowych (MY TIME), 40 projektów testowych w e2e (DevHub), boty QA i testy obciążeniowe (A&A-EUcoins).",
+          "security": "CSRF, dziennik audytu i blokada prób (NAJMO); izolowane profile i ochrona odcisku (Aura); ROM privacy-first (CactusOS).",
+          "data": "Eksport EÜR i DATEV (Accounting Pro); 14-dniowa analityka lejka (NAJMO); ocena sygnałów i dziennik PnL (CryptoGemScanner); porównanie kosztu pełnego (Supply Lens).",
+          "integrations": "API CoinMarketCap i CryptoCompare, Telegram Bot API, SMS przez Androida, panel klienta przez ngrok.",
+          "product": "Specyfikacja v1.0 i klikalny prototyp (CactusOS); opisy i notatki o stosie dla każdego projektu.",
+          "ai": "Lokalny agent AI do kodowania na llama.cpp (VESNA); programowanie i debugowanie z AI we wszystkich projektach."
+        },
+        "cta": "Zobacz pełną analitykę",
+        "centerLabel": "ról",
+        "radarTitle": "Mapa pokrycia ról",
+        "rankTitle": "Role według liczby projektów",
+        "rings": [
+          "z {n} ról pokrytych",
+          "średnio ról na projekt",
+          "najwięcej ról w jednym projekcie — {name}"
+        ]
+      }
+    }
+  },
+  "ru": {
+    "title": "Yauheni Travinau — AI, разработка и автоматизация",
+    "description": "Портфолио Евгения Травинова из Вроцлава. Веб-продукты, приложения Windows и автоматизация с лёгкой интерактивной 3D-визуализацией.",
+    "skip": "Перейти к содержимому",
+    "nav": [
+      "Проекты",
+      "Лаборатория",
+      "Обо мне",
+      "Контакты"
+    ],
+    "menu": "Меню",
+    "location": "Вроцлав, Польша",
+    "eyebrow": "СОЗДАЮ СВОИ ПРОЕКТЫ · AI / WEB / АВТОМАТИЗАЦИЯ",
+    "hero": [
+      "От идеи",
+      "к продукту",
+      "с AI."
+    ],
+    "intro": "Я Евгений. Соединяю любопытство, код и AI, чтобы создавать цифровые продукты для реальных задач.",
+    "work": "Смотреть проекты",
+    "cv": "Скачать CV",
+    "cvNote": "CV · польский · PDF · 2 страницы",
+    "scroll": "ЛИСТАЙТЕ И ИССЛЕДУЙТЕ",
+    "sceneTitle": "Маленький герой. Большое любопытство.",
+    "drag": "Потяните для поворота. Отпустите — вращение продолжится.",
+    "pause": "Пауза",
+    "play": "Вращать",
+    "reset": "Сбросить вид",
+    "character": "Персонаж",
+    "core": "3D-ядро",
+    "viewer": "Интерактивная сцена 360 градусов",
+    "stageNote": "Оригинальный персонаж · фото-сцена 2.5D · плавный поворот",
+    "strip": [
+      "AI на практике",
+      "Веб-продукты",
+      "Автоматизация",
+      "Программы Windows"
+    ],
+    "projectsLabel": "01 / ИЗБРАННЫЕ ПРОЕКТЫ",
+    "projectsTitle": "Создаю для реальных задач.",
+    "projectsIntro": "Практические задачи, собственные проекты и решения за ними. Откройте описание, чтобы увидеть мой подход к работе.",
+    "all": "Все проекты",
+    "filters": [
+      "Web и API",
+      "Desktop",
+      "Эксперименты"
+    ],
+    "case": "Подробнее о проекте",
+    "close": "Закрыть описание проекта",
+    "problem": "Задача",
+    "solution": "Подход",
+    "role": "Мой вклад",
+    "stack": "Инструменты и технологии",
+    "learned": "Что я узнал",
+    "visit": "Открыть проект",
+    "private": "Личный инструмент",
+    "reference": "Ссылка автора на проект",
+    "prototype": "Эксперимент",
+    "source": "Открытые репозитории",
+    "illustration": "Концепт-иллюстрация · не скриншот продукта",
+    "labLabel": "02 / ЛАБОРАТОРИЯ ИНТЕРАКЦИЙ",
+    "labTitle": "Меньше ресурсов.\nБольше измерений.",
+    "labIntro": "Интерактивный 3D-объект из шести HTML-граней. Выберите акцент, поверните ядро или отключите движение. Визуальный эксперимент без загрузки 3D-движка.",
+    "accent": "Цвет акцента",
+    "violet": "Фиолетовый",
+    "cyan": "Голубой",
+    "lime": "Лайм",
+    "rotation": "Поворот",
+    "motion": "Движение",
+    "labHint": "Потяните ядро или используйте ползунок",
+    "labMeta": [
+      "CSS-трансформации",
+      "Pointer events",
+      "Ограничение движения"
+    ],
+    "aboutLabel": "03 / ЧЕЛОВЕК ЗА ПРОЕКТАМИ",
+    "aboutTitle": "Всё начинается\nс любопытства.",
+    "aboutIntro": "Практический подход. Самостоятельное обучение. Ответственность за результат.",
+    "approach": "Как я работаю с AI",
+    "experience": "Опыт",
+    "education": "Образование",
+    "languages": "Языки",
+    "skills": "Мои инструменты",
+    "journey": [
+      "Понять",
+      "Изучить",
+      "Прототип",
+      "Проверить",
+      "Использовать"
+    ],
+    "contactLabel": "04 / ДАВАЙТЕ ЗНАКОМИТЬСЯ",
+    "contactTitle": "Есть задача,\nкоторую стоит решить?",
+    "contactIntro": "Ищу возможность развиваться в AI и автоматизации и работать над реальными продуктами. Давайте обсудим, что мы можем создать.",
+    "email": "Написать мне",
+    "copy": "Скопировать email",
+    "copied": "Email скопирован",
+    "copyFailed": "Скопируйте: j.travinov@gmail.com",
+    "footer": "Создано для исследования. С вниманием к производительности.",
+    "top": "Наверх",
+    "motionOn": "Движение включено",
+    "motionOff": "Движение выключено",
+    "nojs": "Портфолио и описания проектов работают без JavaScript. Включите JavaScript для интерактивных сцен.",
+    "notfound": "Эта страница выбрала другой путь.",
+    "home": "Вернуться в портфолио",
+    "sceneLoading": "Загрузка фото-сцены…",
+    "sceneUnavailable": "Анимация недоступна. Показан статичный вид.",
+    "openToWork": "Открыт к предложениям",
+    "live": "Онлайн",
+    "statsLabel": "Коротко",
+    "stats": [
+      [
+        "02",
+        "Работающих продукта онлайн"
+      ],
+      [
+        "02",
+        "Windows-инструмента в ежедневном использовании"
+      ],
+      [
+        "10",
+        "Проектов в витрине"
+      ],
+      [
+        "03",
+        "Языка: EN · PL · RU"
+      ]
+    ],
+    "archLabel": "Как это устроено",
+    "aiHelped": "Где помогал AI",
+    "verified": "Что проверил сам",
+    "resultLabel": "Результат",
+    "taughtLabel": "Чему это меня научило",
+    "featured": "Главный проект",
+    "viewLive": "Открыть сайт",
+    "strengths": "Сильные стороны",
+    "processLabel": "Мой процесс",
+    "underHood": "Заметки о решениях",
+    "notesCount": "6 решений",
+    "portfolio": {
+      "nav": "Витрина",
+      "title": "Витрина проектов — Yauheni Travinau",
+      "description": "Десять реальных проектов Евгения Травинова: работающие веб-продукты, инструменты Windows, дизайн-кейс Android и локальный AI-агент. Настоящие скриншоты и честные описания.",
+      "label": "ВИТРИНА · 10 ПРОЕКТОВ",
+      "heading": "Всё, что я создал,\nв одном месте.",
+      "intro": "Шесть подробных кейсов — на главной странице. Здесь все десять проектов из моей рабочей папки: со скриншотами, стеками и честными статусами.",
+      "filters": [
+        "Все",
+        "Веб",
+        "Десктоп",
+        "Android",
+        "AI"
+      ],
+      "featuredEyebrow": "Главный проект",
+      "featuredNote": "Десктопная и мобильная версии одного продукта.",
+      "highlights": "Ключевое",
+      "shotsTitle": "Скриншоты",
+      "status": {
+        "live": "Онлайн",
+        "ready": "Готов",
+        "private": "Приватный",
+        "prototype": "Прототип"
+      },
+      "cta": "Все 10 проектов",
+      "ctaNote": "Скриншоты · стеки · статусы",
+      "back": "На главную страницу",
+      "note": "Каждый скриншот сделан с реальной сборки. Приватные проекты описаны без раскрытия внутренних данных.",
+      "statusNote": "Без скриншотов — проект приватный или без интерфейса, который есть смысл показывать.",
+      "analytics": {
+        "label": "АНАЛИТИКА ПОРТФОЛИО",
+        "title": "Портфолио в цифрах",
+        "intro": "Считается автоматически из данных проектов ниже — ничего не вписано вручную.",
+        "projects": "проектов",
+        "live": "работают в продакшене",
+        "technologies": "инструментов и технологий",
+        "platforms": "платформы",
+        "byPlatform": "По платформам",
+        "byStatus": "По статусам",
+        "topTech": "Самые используемые технологии",
+        "uses": "проектов"
+      },
+      "moreDetails": "Подробнее",
+      "fewer": "Скрыть подробности",
+      "keyNumbers": "Ключевые цифры",
+      "legendTitle": "Что значат статусы",
+      "legend": {
+        "live": "работает в продакшене для реальных пользователей",
+        "ready": "готов — можно установить и пользоваться",
+        "prototype": "рабочая концепция, не релиз",
+        "private": "сделан для личного или рабочего использования"
+      },
+      "team": {
+        "label": "ОДИН ЧЕЛОВЕК · МНОГО РОЛЕЙ",
+        "title": "{n} ролей. Один автор.",
+        "intro": "Большинство этих проектов я собрал от начала до конца сам: идея, интерфейс, сервер, данные, тесты и доставка. Матрица показывает, какие инженерные роли каждый проект реально задействовал.",
+        "big": [
+          [
+            "{n}",
+            "специализированных ролей, между которыми обычная команда разделила бы эту работу"
+          ],
+          [
+            "1",
+            "человек, который закрыл их во всех {p} проектах"
+          ]
+        ],
+        "matrixTitle": "Покрытие ролей по проектам",
+        "projectsLabel": "проектов",
+        "evidenceTitle": "Подтверждение из проектов",
+        "keyTitle": "Список проектов",
+        "caveat": "Честно: это показывает широту и ответственность за результат целиком — а не то, что один человек заменяет целый отдел. Глубина по ролям разная, поэтому её стоит проверить на работающих продуктах и в коде.",
+        "roles": {
+          "frontend": "Фронтенд",
+          "backend": "Бэкенд",
+          "database": "Базы данных",
+          "mobile": "Mobile / Android",
+          "delivery": "Доставка и деплой",
+          "qa": "QA и тесты",
+          "security": "Безопасность и приватность",
+          "data": "Данные и аналитика",
+          "integrations": "Интеграции и автоматизация",
+          "product": "Продукт и документация",
+          "ai": "AI-инженерия"
+        },
+        "evidence": {
+          "frontend": "Интерфейсы на React, Next.js и TypeScript — A&A-EUcoins, MY TIME, NAJMO, DevHub.",
+          "backend": "Сервисы на Next.js, Go, Node.js, Python/Flask и FastAPI.",
+          "database": "PostgreSQL и Redis (A&A-EUcoins); SQLite (Accounting Pro, CryptoGemScanner, Supply Lens).",
+          "mobile": "Expo / React Native, Capacitor, Android APK с отправкой через 2 SIM, дизайн Android-ROM.",
+          "delivery": "Docker, скрипты деплоя и бэкапы (A&A-EUcoins); установщики Inno Setup и NSIS.",
+          "qa": "49 юнит-тестов (MY TIME), 40 тестовых проектов в e2e (DevHub), QA-боты и нагрузочные тесты (A&A-EUcoins).",
+          "security": "CSRF, audit-log и блокировка подбора (NAJMO); изолированные профили и защита от фингерпринтинга (Aura); ROM privacy-first (CactusOS).",
+          "data": "Экспорт EÜR и DATEV (Accounting Pro); воронка-аналитика за 14 дней (NAJMO); скоринг сигналов и журнал PnL (CryptoGemScanner); сравнение полной стоимости (Supply Lens).",
+          "integrations": "API CoinMarketCap и CryptoCompare, Telegram Bot API, SMS через Android, панель заказчика через ngrok.",
+          "product": "Спецификация v1.0 и кликабельный прототип (CactusOS); описания и заметки о стеке для каждого проекта.",
+          "ai": "Локальный AI-агент для кода на llama.cpp (VESNA); разработка и отладка с AI во всех проектах."
+        },
+        "cta": "Смотреть всю аналитику",
+        "centerLabel": "ролей",
+        "radarTitle": "Карта покрытия ролей",
+        "rankTitle": "Роли по числу проектов",
+        "rings": [
+          "из {n} ролей закрыто",
+          "в среднем ролей на проект",
+          "максимум ролей в одном проекте — {name}"
+        ]
+      }
+    }
+  }
+}

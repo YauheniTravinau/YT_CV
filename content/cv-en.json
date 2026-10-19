@@ -1,0 +1,68 @@
+{
+  "headline": "From idea to a working solution with AI",
+  "summary": "I combine practical use of AI with building digital products. On my own I develop websites, web applications, Windows programs and tools that automate work. I learn best by doing — moving quickly from an idea and a new technology to a prototype I can test in real use.",
+  "lookingFor": "I am looking for an environment where I can apply technical thinking, independence and AI to solve concrete problems and keep growing towards AI and automation.",
+  "aiApproach": "I do not treat AI as a replacement for knowledge but as a tool that speeds work up. I pick the model and working method for the concrete problem, compare approaches, analyze results and verify them in practice. This is how I learn new technologies faster and move from problem to solution more effectively.",
+  "experience": [
+    {
+      "period": "2025 — present",
+      "company": "WEARTECH SOLUTIONS • Wrocław",
+      "role": "Technical service / diagnostics",
+      "bullets": [
+        "Diagnostics, service and technical problem solving in a B2B environment.",
+        "Independent analysis of fault causes and selection of appropriate solutions.",
+        "Task-driven work requiring accuracy, responsibility and fast learning of new technical solutions.",
+        "Independent work organization and solving non-standard problems."
+      ],
+      "taught": "Tracing problems down to the cause and owning the result in an environment where the fix is needed now."
+    },
+    {
+      "period": "2019 — 02.2023",
+      "company": "Amazon • Poland",
+      "role": "Warehouse operations → logistics",
+      "bullets": [
+        "Promotion/transfer from warehouse work to the logistics department.",
+        "Coordinating vehicle arrivals and departures while working in several systems in parallel.",
+        "Communication with international drivers via chat, radio and phone.",
+        "Working in an environment demanding concentration, independence and fast decisions."
+      ],
+      "taught": "Working across several systems in parallel and coordinating processes where mistakes are expensive."
+    }
+  ],
+  "education": [
+    { "title": "JavaScript + React", "org": "FutureCollars", "years": "2022–2023" },
+    { "title": "Help Desk IT", "org": "Nova Centrum Edukacyjne", "years": "2021" },
+    { "title": "Civil Engineering", "org": "Polotsk State University", "years": "2017" }
+  ],
+  "languages": [
+    { "name": "Belarusian", "level": "native" },
+    { "name": "Russian", "level": "fluent" },
+    { "name": "Ukrainian", "level": "communicative" },
+    { "name": "Polish", "level": "communicative" },
+    { "name": "English", "level": "basic" }
+  ],
+  "skillGroups": [
+    {
+      "title": "AI / Development",
+      "items": ["Claude", "ChatGPT", "Codex", "Gemini", "DeepSeek", "Copilot", "Cursor", "Canva AI", "Prompt Engineering", "AI-assisted coding", "Debugging with AI"]
+    },
+    {
+      "title": "Web / Frontend",
+      "items": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    {
+      "title": "Automation / Tools",
+      "items": ["Automation", "API", "Git", "Research", "SEO"]
+    }
+  ],
+  "strengths": [
+    "Fast transition from idea to prototype",
+    "Independent search and testing of solutions",
+    "Logical approach to technical problems",
+    "Fast adaptation to new tools",
+    "Combining different technologies into one solution",
+    "Consistency in bringing projects to real use"
+  ],
+  "direction": "I want to develop towards AI Engineering and automation — especially applications that use AI models, agents, APIs and automated workflows. I care about gaining experience on real products and gradually increasing technical responsibility.",
+  "consent": "I consent to the processing of my personal data for recruitment purposes."
+}

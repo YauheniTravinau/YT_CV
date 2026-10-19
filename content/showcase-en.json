@@ -1,0 +1,444 @@
+[
+  {
+    "slug": "aa-eucoins",
+    "title": "A&A-EUcoins",
+    "category": "web",
+    "status": "live",
+    "year": "2026",
+    "summary": "Marketplace auction for collectible coins: live bidding, catalog, seller dashboard and admin panel.",
+    "description": "The full path from idea to a working product on a real server: auctions with bids and max auto-bids, a catalog with faceted filters, per-seller carts, guest checkout, disputes with document uploads, order chat, invoices and seller commissions. Grows as the core project of my own business.",
+    "highlights": [
+      "Live auctions: bids, auto-bids, price polling every 5 seconds",
+      "Catalog with filters: country, metal, condition",
+      "Seller dashboard: commissions, PDF invoices, statistics",
+      "Admin panel with QA bots (buyer / seller / auditor) and load tests",
+      "Docker, deploy scripts and backups"
+    ],
+    "stack": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind 4",
+      "PostgreSQL",
+      "Redis",
+      "Cloudflare R2",
+      "Docker",
+      "Expo / React Native"
+    ],
+    "links": {
+      "live": "https://aa-eucoins.de"
+    },
+    "screenshots": [
+      {
+        "src": "aa-eucoins-desktop.jpg",
+        "w": 1440,
+        "h": 900,
+        "caption": "Home: auctions and catalog"
+      },
+      {
+        "src": "aa-eucoins-mobile.jpg",
+        "w": 390,
+        "h": 844,
+        "caption": "Mobile version"
+      }
+    ],
+    "metrics": [
+      [
+        "5 s",
+        "price polling in live auctions"
+      ],
+      [
+        "3",
+        "QA bot roles: buyer · seller · auditor"
+      ]
+    ]
+  },
+  {
+    "slug": "accounting-pro",
+    "title": "Accounting Pro",
+    "category": "desktop",
+    "status": "ready",
+    "year": "2026",
+    "summary": "Offline accounting for small German businesses: invoices, EÜR and DATEV export.",
+    "description": "A desktop app built for a real market: invoices with PDF export, the automatic §19 UStG Kleinunternehmer clause, a dashboard with revenue, expenses and profit, EÜR with cost of goods, DATEV export for the Steuerberater, inventory with Excel export and a change journal. I use it myself for my own business books.",
+    "highlights": [
+      "Invoices RE-2026-0001 with PDF export and a document archive",
+      "EÜR with COGS and DATEV export for the tax advisor",
+      "Dashboard: revenue, margin, Kleinunternehmer limit",
+      "Three UI languages: DE · RU · EN",
+      "Portable build and Inno Setup installer"
+    ],
+    "stack": [
+      "Go",
+      "Wails v2",
+      "React",
+      "TypeScript",
+      "SQLite",
+      "Inno Setup"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "accounting-desktop.jpg",
+        "w": 1600,
+        "h": 875,
+        "caption": "Products: inventory, prices and sales history"
+      }
+    ],
+    "metrics": [
+      [
+        "3",
+        "UI languages: DE · RU · EN"
+      ],
+      [
+        "2",
+        "builds: portable + installer"
+      ]
+    ]
+  },
+  {
+    "slug": "devhub",
+    "title": "DevHub",
+    "category": "desktop",
+    "status": "ready",
+    "year": "2026",
+    "summary": "A single local-development hub for Windows: all projects and services in one window.",
+    "description": "A tool I built for my own work with dozens of projects: automatic stack detection (Node, PHP, Laravel, Django, Flask, .NET, Docker), starting and stopping services with dependencies, an embedded terminal and profiles in a local database. Release 1.1.2 with smoke, launch and e2e tests.",
+    "highlights": [
+      "Auto-detected run commands: npm, pnpm, yarn, bun, artisan, runserver, dotnet, Docker Compose",
+      "Services with dependencies: ordered start, process-tree stop",
+      "Embedded terminal on node-pty + xterm",
+      "Folder scanning up to 2 levels / 80 directories",
+      "Smoke / launch / e2e tests, including 40 test projects"
+    ],
+    "stack": [
+      "Electron 33",
+      "React 18",
+      "TypeScript",
+      "node-pty",
+      "xterm",
+      "sql.js"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "devhub-desktop.jpg",
+        "w": 1600,
+        "h": 875,
+        "caption": "A list of 136 local projects with filters"
+      }
+    ],
+    "metrics": [
+      [
+        "8",
+        "runners auto-detected (npm … Docker Compose)"
+      ],
+      [
+        "40",
+        "test projects in the e2e suite"
+      ],
+      [
+        "80",
+        "directories scanned, 2 levels deep"
+      ]
+    ]
+  },
+  {
+    "slug": "aura-browser",
+    "title": "Aura Browser",
+    "category": "desktop",
+    "status": "ready",
+    "year": "2026",
+    "summary": "A privacy-first browser for Windows: isolated tabs and fingerprinting protection.",
+    "description": "\"You are everywhere. You are nowhere\" — a browser with isolated tab profiles (Trusted / Tabs / Archive), a fresh fingerprint for every anonymous session, one-shortcut profile burning, smart bookmarks with categories and a long-unused section. A shipped product with an installer and a portable build.",
+    "highlights": [
+      "Isolated tab profiles with separate data",
+      "Anonymous sessions with a fresh fingerprint",
+      "Profile burn with a single Ctrl+W shortcut",
+      "Smart bookmarks: categories and \"long unused\"",
+      "NSIS installer + portable"
+    ],
+    "stack": [
+      "Electron 33",
+      "better-sqlite3",
+      "electron-builder"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "aura-desktop.jpg",
+        "w": 1600,
+        "h": 875,
+        "caption": "Start screen: quick sign-in and an anonymous session"
+      }
+    ],
+    "metrics": [
+      [
+        "1",
+        "shortcut (Ctrl+W) burns a profile"
+      ],
+      [
+        "2",
+        "installers: NSIS + portable"
+      ]
+    ]
+  },
+  {
+    "slug": "my-time",
+    "title": "MY TIME",
+    "category": "web",
+    "status": "ready",
+    "year": "2026",
+    "summary": "An offline one-tap time tracker: timer, plans, goals and mood.",
+    "description": "An app about honest time tracking without pressure: one tap on a category and the timer runs, plans and facts live separately, mood and a daily question help you notice what matters. Fully offline: data stays on the device. Covered by 49 unit tests and packaged as an Android app via Capacitor.",
+    "highlights": [
+      "Timestamp-based timer: pauses and atomic category switching",
+      "Plans with repeats and a plan-versus-fact comparison",
+      "2 / 5 / 10 minute quests and reality checks",
+      "49 unit tests (Vitest), JSON / CSV export",
+      "Android build via Capacitor"
+    ],
+    "stack": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Zustand",
+      "Capacitor",
+      "Vitest"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "mytime-mobile.jpg",
+        "w": 390,
+        "h": 844,
+        "caption": "The Today screen: categories and mood"
+      },
+      {
+        "src": "mytime-desktop.jpg",
+        "w": 1100,
+        "h": 688,
+        "caption": "Onboarding in the web version"
+      }
+    ],
+    "metrics": [
+      [
+        "49",
+        "unit tests (Vitest)"
+      ],
+      [
+        "3",
+        "quest lengths: 2 · 5 · 10 min"
+      ],
+      [
+        "2",
+        "export formats: JSON · CSV"
+      ]
+    ]
+  },
+  {
+    "slug": "cryptogemscanner",
+    "title": "CryptoGemScanner",
+    "category": "web",
+    "status": "live",
+    "year": "2025—2026",
+    "summary": "A crypto-signals service: new-listing scanner, momentum scoring and auto-publishing to Telegram.",
+    "description": "The system watches new listings via the CoinMarketCap and CryptoCompare APIs, computes momentum scoring (price, volume, dynamics), publishes signals with TP1/TP2 targets and a stop-loss, maintains a risk zone for published coins and a trade journal with PnL. Runs as a website and as a Windows desktop app.",
+    "highlights": [
+      "Real API data: CoinMarketCap, CryptoCompare",
+      "Signal-quality scoring and momentum (A/B/C grades)",
+      "Post-monitoring risk zone: soft/hard alerts",
+      "Automatic Telegram posts: TP1/TP2/SL",
+      "SQLite trade journal with PnL and a Flask admin"
+    ],
+    "stack": [
+      "Python",
+      "Flask",
+      "API integrations",
+      "Telegram Bot API",
+      "PyQt6",
+      "PyInstaller"
+    ],
+    "links": {
+      "live": "https://cryptogemscanner.com"
+    },
+    "screenshots": [
+      {
+        "src": "cryptogem-desktop.jpg",
+        "w": 1440,
+        "h": 900,
+        "caption": "Live signals dashboard"
+      },
+      {
+        "src": "cryptogem-mobile.jpg",
+        "w": 390,
+        "h": 844,
+        "caption": "Mobile version"
+      }
+    ],
+    "metrics": [
+      [
+        "2",
+        "market-data APIs"
+      ],
+      [
+        "A/B/C",
+        "signal-quality grades"
+      ]
+    ]
+  },
+  {
+    "slug": "cactusos",
+    "title": "CactusOS",
+    "category": "android",
+    "status": "prototype",
+    "year": "2026",
+    "summary": "A design case: a privacy-first Android ROM for Xiaomi Redmi 6A — specification and a clickable prototype.",
+    "description": "A project about making a phone trustworthy for small-business employees: specification v1.0 (dual SIM, employees with PINs, PERSONAL/WORK spaces, a DENIED→ASK→ALLOWED permission panel, zero telemetry, SELinux enforcing and FBE on top of LineageOS) plus an interactive HTML prototype of the UI with lock screen, people, settings and SMS screens.",
+    "highlights": [
+      "Specification v1.0 \"approved baseline\"",
+      "Clickable UI prototype: RU / EN",
+      "An \"employee + owner\" model with PINs and spaces",
+      "Zero telemetry and no Google account",
+      "Base: Android 11 / LineageOS 18.1, kernel 4.9"
+    ],
+    "stack": [
+      "Specification",
+      "HTML prototype",
+      "Android / LineageOS research"
+    ],
+    "links": {},
+    "screenshots": [
+      {
+        "src": "cactusos-phone.jpg",
+        "w": 736,
+        "h": 1536,
+        "caption": "Lock screen: choosing an employee"
+      }
+    ],
+    "metrics": [
+      [
+        "v1.0",
+        "approved specification"
+      ],
+      [
+        "2",
+        "prototype languages: RU · EN"
+      ],
+      [
+        "0",
+        "telemetry, no Google account"
+      ]
+    ]
+  },
+  {
+    "slug": "najmo",
+    "title": "NAJMO",
+    "category": "android",
+    "status": "private",
+    "year": "2026",
+    "summary": "An SMS system for local business: a PC operator, a dual-SIM Android app and a client panel.",
+    "description": "A working v3.5 system: Polish SMS chains with correct district declension, limits and sending windows, STOP handling, a 14-day funnel analytics across days and lists, Excel/TXT/CSV reports and APK self-update. The client panel ships with a password, CSRF protection and an audit log.",
+    "highlights": [
+      "Android app (APK) sending via 2 SIMs over USB",
+      "Polish declension in texts: 100 code-to-district pairs",
+      "Limits of 300 SMS/day per SIM and a 09:00–20:00 window",
+      "14-day funnel analytics: by hour, list and SIM",
+      "Client panel: CSRF, audit log, password-guess lockout"
+    ],
+    "stack": [
+      "Node.js 22",
+      "React",
+      "Android APK",
+      "Excel reports",
+      "ngrok"
+    ],
+    "links": {},
+    "screenshots": [],
+    "metrics": [
+      [
+        "300",
+        "SMS per day per SIM"
+      ],
+      [
+        "14",
+        "days of funnel analytics"
+      ],
+      [
+        "100",
+        "code-to-district declension pairs"
+      ]
+    ]
+  },
+  {
+    "slug": "supply-lens",
+    "title": "Supply Lens",
+    "category": "desktop",
+    "status": "private",
+    "year": "2026",
+    "summary": "A procurement tool: a base of Chinese suppliers, price-list import and comparison.",
+    "description": "A desktop app for comparing supplier price lists: parsing lines with specs and prices, quick import via Ctrl+V, cross-supplier comparison with the best price highlighted, full landed cost with customs, shipping and commission, Excel export and invoice photos.",
+    "highlights": [
+      "Price-line parsing: series, CPU, RAM, SSD, GPU, screen, price",
+      "Supplier comparison with the best price highlighted",
+      "Full landed cost: customs, shipping, commission",
+      "Invoice photos and Excel export",
+      "Dark and light themes, installer v1.1"
+    ],
+    "stack": [
+      "Python",
+      "PySide6",
+      "SQLite",
+      "openpyxl",
+      "PyInstaller",
+      "Inno Setup"
+    ],
+    "links": {},
+    "screenshots": [],
+    "metrics": [
+      [
+        "7",
+        "price-line fields parsed"
+      ],
+      [
+        "v1.1",
+        "installer release"
+      ]
+    ]
+  },
+  {
+    "slug": "vesna",
+    "title": "VESNA",
+    "category": "ai",
+    "status": "prototype",
+    "year": "2026",
+    "summary": "A local AI coding agent: like Cursor, but fully on my own hardware, no cloud.",
+    "description": "Experiment v0.6: an agent with read/patch/grep/shell/git/web tools running on embedded llama.cpp with local models (Qwen2.5-Coder, DeepSeek Coder). Six modes — from a quick question to a four-agent team (Multi) — plus a training-lab sandbox for autonomous learning and a web interface.",
+    "highlights": [
+      "6 modes: Agent, Explore, Quick, Plan, Execute, Multi",
+      "Tools: files, patches, grep, shell, pytest, git, web",
+      "Local models via llama.cpp — no cloud",
+      "Training-lab: an autonomous learning sandbox",
+      "Web UI (FastAPI) + desktop (pywebview), installer"
+    ],
+    "stack": [
+      "Python",
+      "llama-cpp-python",
+      "FastAPI",
+      "pywebview",
+      "PyInstaller"
+    ],
+    "links": {},
+    "screenshots": [],
+    "metrics": [
+      [
+        "6",
+        "agent modes"
+      ],
+      [
+        "0",
+        "cloud calls — local models only"
+      ]
+    ]
+  }
+]

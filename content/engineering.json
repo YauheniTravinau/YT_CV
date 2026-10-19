@@ -1,0 +1,137 @@
+{
+  "en": {
+    "label": "UNDER THE HOOD",
+    "title": "Yes, I thought about that.",
+    "intro": "The small decisions matter. Open a note to see what this site actually does, and why.",
+    "terminal": "portfolio.ts — design notes",
+    "terminalLabel": "A small site. Deliberate decisions.",
+    "notes": [
+      [
+        "Performance & caching",
+        "Ship less. Reuse more.",
+        "Static HTML arrives first. Assets live in a folder named by their content hash; Netlify can cache them for a year. A changed asset gets a new URL. HTML is revalidated, so visitors can discover updates.",
+        "Cache headers are configured for Netlify; GitHub Pages manages its own HTTP headers."
+      ],
+      [
+        "Security",
+        "A smaller attack surface.",
+        "No forms, accounts, secrets or third-party scripts. Netlify's Content Security Policy allows local resources and blocks plugins and framing. Project text is escaped during the build; clipboard feedback uses textContent.",
+        "These are implemented safeguards, not a security certification. HTTPS is provided by the host."
+      ],
+      [
+        "SEO & languages",
+        "Readable before JavaScript.",
+        "Every language has its own static page, title, description and lang attribute. Alternate links connect the translations. Set SITE_URL at build time to generate the canonical URLs, sitemap and absolute sharing image.",
+        "Search positions are never guaranteed. The downloadable source CV is in Polish."
+      ],
+      [
+        "Accessibility & motion",
+        "Interaction is an invitation.",
+        "Keyboard focus is visible. The character supports arrow keys, the cube has a native slider, and project details use HTML disclosure controls. Reduced-motion preferences disable automatic rotation; offscreen and hidden tabs stop the animation loop.",
+        "No JavaScript? You can still read the portfolio, open case studies and download the CV."
+      ],
+      [
+        "The 3D decision",
+        "The original character, kept intact.",
+        "The scene uses the supplied 20 views, cropped individually to remove neighboring figures. Numeric optical-flow fields align adjacent views before blending, so rotation is interpolated continuously. A damped controller lets you drag and smoothly resumes after release.",
+        "This is photo-based 2.5D, not a reconstructed solid model. Missing details in the supplied views cannot be recovered by cropping."
+      ],
+      [
+        "Content & maintainability",
+        "One source. Three languages.",
+        "Structured content and UI translations build four HTML entry points. No backend is needed. The build checks translation keys and local links, so missing content and broken assets fail before deployment.",
+        "All six case studies come from the supplied CV and project materials. Cards focus on the work, with no decorative product images."
+      ]
+    ]
+  },
+  "pl": {
+    "label": "POD MASKĄ",
+    "title": "Tak, o tym też pomyślałem.",
+    "intro": "Małe decyzje mają znaczenie. Otwórz notatkę i zobacz, co ta strona naprawdę robi i dlaczego.",
+    "terminal": "portfolio.ts — decyzje projektowe",
+    "terminalLabel": "Mała strona. Przemyślane decyzje.",
+    "notes": [
+      [
+        "Wydajność i cache",
+        "Mniej pobierania. Więcej użycia.",
+        "Najpierw gotowy HTML. Zasoby trafiają do katalogu z hashem zawartości, więc Netlify może cache'ować je przez rok. Zmiana pliku oznacza nowy URL. HTML jest rewalidowany, aby aktualizacje były widoczne.",
+        "Nagłówki cache są skonfigurowane dla Netlify. GitHub Pages zarządza własnymi nagłówkami HTTP."
+      ],
+      [
+        "Bezpieczeństwo",
+        "Mniej punktów wejścia.",
+        "Bez formularzy, kont, sekretów i zewnętrznych skryptów. Content Security Policy w Netlify dopuszcza lokalne zasoby oraz blokuje wtyczki i osadzanie strony. Teksty projektów są escapowane podczas budowania; komunikaty schowka używają textContent.",
+        "To wdrożone zabezpieczenia, nie certyfikat bezpieczeństwa. HTTPS zapewnia hosting."
+      ],
+      [
+        "SEO i języki",
+        "Czytelna przed JavaScript.",
+        "Każdy język ma statyczną stronę, tytuł, opis i atrybut lang. Linki alternate łączą tłumaczenia. Ustaw SITE_URL przed budowaniem, aby wygenerować canonical, sitemap i absolutny adres grafiki udostępniania.",
+        "Pozycji w wyszukiwarce nie da się zagwarantować. Oryginalne CV jest po polsku."
+      ],
+      [
+        "Dostępność i ruch",
+        "Interakcja to zaproszenie.",
+        "Widoczny fokus klawiatury. Postać obsługuje strzałki, kostka ma natywny suwak, a opisy projektów używają HTML details. Preferencja ograniczonego ruchu wyłącza automatyczny obrót; poza ekranem i w ukrytej karcie pętla animacji zatrzymuje się.",
+        "Bez JavaScript nadal przeczytasz portfolio, rozwiniesz opisy i pobierzesz CV."
+      ],
+      [
+        "Decyzja o 3D",
+        "Oryginalna postać, bez zmiany wyglądu.",
+        "Scena wykorzystuje 20 dostarczonych widoków z indywidualnym kadrowaniem usuwającym sąsiednie postacie. Pola optical flow dopasowują sąsiednie widoki przed mieszaniem, zapewniając ciągłą interpolację. Sterowanie z tłumieniem umożliwia przeciąganie i łagodne wznowienie po puszczeniu.",
+        "To scena 2.5D ze zdjęć, nie zrekonstruowany pełny model. Kadrowanie nie odzyskuje brakujących szczegółów oryginałów."
+      ],
+      [
+        "Treść i utrzymanie",
+        "Jedno źródło. Trzy języki.",
+        "Dane i tłumaczenia interfejsu tworzą cztery statyczne strony HTML. Backend nie jest potrzebny. Build sprawdza klucze tłumaczeń i lokalne linki, aby wykryć braki przed wdrożeniem.",
+        "Wszystkie sześć opisów pochodzi z CV i materiałów projektu. Karty skupiają się na pracy, bez dekoracyjnych obrazków produktów."
+      ]
+    ]
+  },
+  "ru": {
+    "label": "ПОД КАПОТОМ",
+    "title": "Да, об этом я тоже подумал.",
+    "intro": "Детали имеют значение. Откройте заметку: что действительно реализовано на этом сайте и зачем.",
+    "terminal": "portfolio.ts — решения в коде",
+    "terminalLabel": "Небольшой сайт. Продуманные решения.",
+    "notes": [
+      [
+        "Скорость и кэширование",
+        "Меньше загрузки. Больше повторного использования.",
+        "Сначала готовый HTML. Ресурсы находятся в папке с хешем содержимого: Netlify может хранить их в кэше год. Изменился файл — изменился URL. HTML перепроверяется, чтобы посетители получали обновления.",
+        "Заголовки кэша настроены для Netlify. GitHub Pages сам управляет своими HTTP-заголовками."
+      ],
+      [
+        "Безопасность",
+        "Меньше точек входа.",
+        "Нет форм, аккаунтов, секретов и сторонних скриптов. Content Security Policy на Netlify разрешает локальные ресурсы, блокирует плагины и встраивание сайта. Тексты проектов экранируются при сборке; сообщения копирования используют textContent.",
+        "Это реализованные меры, а не сертификат безопасности. HTTPS предоставляет хостинг."
+      ],
+      [
+        "SEO и языки",
+        "Читается до запуска JavaScript.",
+        "Для каждого языка есть статическая страница, title, description и атрибут lang. Alternate-ссылки связывают переводы. Задайте SITE_URL перед сборкой для canonical, sitemap и абсолютного адреса картинки при отправке ссылки.",
+        "Позиции в поиске не гарантируются. Исходный CV для скачивания — на польском."
+      ],
+      [
+        "Доступность и движение",
+        "Интерактивность — это приглашение.",
+        "Фокус клавиатуры виден. Персонажем можно управлять стрелками, у куба есть обычный ползунок, а кейсы используют HTML details. Настройка ограничения движения отключает автоматический поворот; вне экрана и в скрытой вкладке цикл анимации останавливается.",
+        "Без JavaScript всё ещё можно читать портфолио, раскрывать кейсы и скачивать CV."
+      ],
+      [
+        "Почему такое 3D",
+        "Исходный персонаж, без изменения внешности.",
+        "Сцена использует 20 готовых ракурсов с индивидуальным кадрированием, убирающим соседние фигуры. Поля optical flow совмещают соседние изображения перед смешиванием для непрерывной интерполяции поворота. Управление с затуханием позволяет потянуть мышью и плавно продолжить вращение после отпускания.",
+        "Это фото-сцена 2.5D, а не восстановленная объёмная модель. Кадрирование не возвращает детали, отсутствующие в исходных ракурсах."
+      ],
+      [
+        "Контент и поддержка",
+        "Один источник. Три языка.",
+        "Структурированный контент и переводы создают четыре HTML-страницы. Бэкенд не нужен. Сборка проверяет ключи переводов и локальные ссылки, чтобы находить пропуски до публикации.",
+        "Все шесть кейсов взяты из CV и материалов проекта. Карточки рассказывают о работе без декоративных картинок продуктов."
+      ]
+    ]
+  }
+}

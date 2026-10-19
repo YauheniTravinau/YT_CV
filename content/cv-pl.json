@@ -1,0 +1,68 @@
+{
+  "headline": "Od pomysłu do działającego rozwiązania z AI",
+  "summary": "Łączę praktyczne wykorzystanie AI z tworzeniem produktów cyfrowych. Samodzielnie rozwijam strony internetowe, aplikacje webowe, programy dla Windows i narzędzia automatyzujące pracę. Najlepiej uczę się poprzez praktykę — szybko przechodzę od pomysłu i poznania nowej technologii do prototypu, który mogę przetestować w realnym użyciu.",
+  "lookingFor": "Szukam środowiska, w którym mogę wykorzystać techniczne myślenie, samodzielność i AI do rozwiązywania konkretnych problemów oraz dalszego rozwoju w kierunku AI i automatyzacji.",
+  "aiApproach": "AI nie traktuję jako zamiennika wiedzy, lecz jako narzędzie przyspieszające pracę. Dobieram model i sposób pracy do konkretnego problemu, porównuję różne podejścia, analizuję wyniki i weryfikuję je w praktyce. Dzięki temu szybciej poznaję nowe technologie i sprawniej przechodzę od problemu do rozwiązania.",
+  "experience": [
+    {
+      "period": "2025 — obecnie",
+      "company": "WEARTECH SOLUTIONS • Wrocław",
+      "role": "Serwisant",
+      "bullets": [
+        "Diagnostyka, serwis i rozwiązywanie problemów technicznych w środowisku B2B.",
+        "Samodzielna analiza przyczyn usterek i dobór odpowiednich rozwiązań.",
+        "Praca zadaniowa wymagająca dokładności, odpowiedzialności i szybkiego uczenia się nowych rozwiązań technicznych.",
+        "Samodzielna organizacja pracy i rozwiązywanie niestandardowych problemów."
+      ],
+      "taught": "Rozkładania problemu na przyczyny i brania odpowiedzialności za wynik tam, gdzie rozwiązanie jest potrzebne od razu."
+    },
+    {
+      "period": "2019 — 02.2023",
+      "company": "Amazon • Polska",
+      "role": "Operacje magazynowe → logistyka",
+      "bullets": [
+        "Awans/przeniesienie z pracy magazynowej do działu logistycznego.",
+        "Koordynacja wjazdów i wyjazdów pojazdów oraz równoległa praca w kilku systemach.",
+        "Komunikacja z międzynarodowymi kierowcami przez chat, radio i telefon.",
+        "Praca w środowisku wymagającym koncentracji, samodzielności i szybkiego podejmowania decyzji."
+      ],
+      "taught": "Równoległej pracy w kilku systemach i koordynowania procesów tam, gdzie koszt błędu jest wysoki."
+    }
+  ],
+  "education": [
+    { "title": "JavaScript + React", "org": "FutureCollars", "years": "2022–2023" },
+    { "title": "Help Desk IT", "org": "Nova Centrum Edukacyjne", "years": "2021" },
+    { "title": "Inżynier budownictwa", "org": "Państwowy Uniwersytet Połocki", "years": "2017" }
+  ],
+  "languages": [
+    { "name": "Białoruski", "level": "ojczysty" },
+    { "name": "Rosyjski", "level": "biegły" },
+    { "name": "Ukraiński", "level": "komunikatywny" },
+    { "name": "Polski", "level": "komunikatywny" },
+    { "name": "Angielski", "level": "podstawowy" }
+  ],
+  "skillGroups": [
+    {
+      "title": "AI / Development",
+      "items": ["Claude", "ChatGPT", "Codex", "Gemini", "DeepSeek", "Copilot", "Cursor", "Canva AI", "Prompt Engineering", "AI-assisted coding", "Debugging with AI"]
+    },
+    {
+      "title": "Web / Frontend",
+      "items": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    {
+      "title": "Automation / Tools",
+      "items": ["Automation", "API", "Git", "Research", "SEO"]
+    }
+  ],
+  "strengths": [
+    "Szybkie przechodzenie od pomysłu do prototypu",
+    "Samodzielne szukanie i testowanie rozwiązań",
+    "Logiczne podejście do problemów technicznych",
+    "Szybka adaptacja do nowych narzędzi",
+    "Łączenie różnych technologii w jedno rozwiązanie",
+    "Konsekwencja w doprowadzaniu projektów do etapu użycia"
+  ],
+  "direction": "Chcę rozwijać się w kierunku AI Engineering i automatyzacji, szczególnie w obszarze aplikacji wykorzystujących modele AI, agentów, API i automatyczne workflow. Zależy mi na zdobywaniu doświadczenia przy rzeczywistych produktach i stopniowym zwiększaniu odpowiedzialności technicznej.",
+  "consent": "Wyrażam zgodę na przetwarzanie moich danych osobowych na potrzeby procesu rekrutacyjnego."
+}
