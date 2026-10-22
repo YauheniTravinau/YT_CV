@@ -27,6 +27,8 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
       - run: npm run check
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
