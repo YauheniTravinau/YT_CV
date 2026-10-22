@@ -1,14 +1,7 @@
 /* Static portfolio first; the interpolated photo character loads only when the scene is visible. */
 document.documentElement.classList.add('js');
-// Language: only the site root (/) negotiates. An explicit /pl/ or /ru/ URL is always respected,
-// and a manual choice in the switcher is remembered and wins over the browser language.
+// Language negotiation lives in lang.js (runs before paint on / and /portfolio/); here we only remember a manual choice.
 const LANGS=['en','pl','ru'],store={get:k=>{try{return localStorage.getItem(k);}catch{return null;}},set:(k,v)=>{try{localStorage.setItem(k,v);}catch{}}};
-if(document.body.hasAttribute('data-root')){
- const saved=store.get('lang'),alias={be:'ru'};
- const browser=(navigator.languages?.length?navigator.languages:[navigator.language||'']).map(l=>l.slice(0,2).toLowerCase()).map(l=>alias[l]||l).find(l=>LANGS.includes(l));
- const wanted=LANGS.includes(saved)?saved:browser;
- if(wanted&&wanted!=='en'){location.replace(wanted+'/'+location.hash);}
-}
 document.querySelectorAll('.locales a').forEach(a=>a.addEventListener('click',()=>store.set('lang',a.getAttribute('lang'))));
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const scriptBase=new URL(document.currentScript.src);

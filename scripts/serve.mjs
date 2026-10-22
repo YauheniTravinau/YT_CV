@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 import {headersFor} from './headers.mjs';
 await import('./build.mjs');
 const root = resolve('dist');
-const types = {'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.webp':'image/webp','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.pdf':'application/pdf','.svg':'image/svg+xml','.json':'application/json','.bin':'application/octet-stream'};
+const types = {'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.webp':'image/webp','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.pdf':'application/pdf','.svg':'image/svg+xml','.json':'application/json','.bin':'application/octet-stream','.ico':'image/x-icon','.webmanifest':'application/manifest+json'};
 http.createServer(async (req,res) => {
   try {
     let file = resolve(root, '.' + decodeURIComponent(new URL(req.url,'http://localhost').pathname));

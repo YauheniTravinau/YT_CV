@@ -103,7 +103,9 @@ For a 360-degree turn, the source views define the visible details. Some origina
 
 При публичной сборке указывайте настоящий адрес сайта: Netlify использует свой публичный URL автоматически, GitHub Pages передаёт URL публикации из workflow. Для ручной сборки задайте `SITE_URL`, затем выполните `npm run build`. В таком `dist` создаются абсолютные canonical и hreflang-ссылки, `robots.txt`, `sitemap.xml`, Schema.org JSON-LD, Open Graph и Twitter Card с публичным JPEG 1200×630. Без публичного домена сборка намеренно не придумывает canonical или sitemap.
 
-Карточка отправки ссылки использует рисунок `assets/social-card.jpg`; исходный WebP сохранён. Иконки вкладки и мобильного экрана — `assets/favicon.svg`, `assets/favicon-32.png` и `assets/apple-touch-icon.png`. Перед первой отправкой новой ссылки сервисы могут держать старую миниатюру в собственном кеше: используйте их инструмент обновления предпросмотра.
+Предпросмотр ссылки: для каждой страницы и языка своя карточка 1200×630 — `assets/og-home-{en,pl,ru}.jpg` для главной и `assets/og-portfolio-{en,pl,ru}.jpg` для витрины. Иконки: `favicon.svg`, `favicon.ico` (в корне сайта), `favicon-16.png`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `icon-maskable-512.png`, плюс `site.webmanifest` для установки на телефон. Все эти файлы нарисованы кодом: `node scripts/brand/make-assets.mjs` (нужны Microsoft Edge и Python с Pillow) пересоздаёт их заново, например после смены текста или цветов. Перед первой отправкой новой ссылки сервисы могут держать старую миниатюру в собственном кеше: используйте их инструмент обновления предпросмотра (Facebook Sharing Debugger, LinkedIn Post Inspector).
+
+Язык: адреса `/` и `/portfolio/` определяют язык браузера (`src/lang.js` выполняется до первой отрисовки): польский и русский (а также белорусский) открывают `/pl/` или `/ru/`, остальные остаются на английском. Выбор, сделанный переключателем EN/PL/RU, запоминается и главнее языка браузера. Прямые адреса `/pl/`, `/ru/`, `/en/` никогда не перенаправляются.
 
 ## GitHub и Netlify
 

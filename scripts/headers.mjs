@@ -10,5 +10,5 @@ export const revalidate='public, max-age=0, must-revalidate';
 export const headersFor=path=>({...securityHeaders,'Cache-Control':path.startsWith('/static/')?immutable:revalidate});
 export const netlifyHeaders=()=>{
  const block=(path,headers)=>path+'\n'+Object.entries(headers).map(([k,v])=>`  ${k}: ${v}`).join('\n')+'\n';
- return block('/*',securityHeaders)+block('/static/*',{'Cache-Control':immutable})+['/','/index.html','/en/*','/pl/*','/ru/*','/404.html','/robots.txt','/sitemap.xml'].map(p=>block(p,{'Cache-Control':revalidate})).join('');
+ return block('/*',securityHeaders)+block('/static/*',{'Cache-Control':immutable})+['/','/index.html','/en/*','/pl/*','/ru/*','/404.html','/robots.txt','/sitemap.xml','/site.webmanifest','/favicon.ico','/apple-touch-icon.png'].map(p=>block(p,{'Cache-Control':revalidate})).join('');
 };

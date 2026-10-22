@@ -1,5 +1,7 @@
 document.documentElement.classList.add('js');
 const $$=s=>[...document.querySelectorAll(s)];
+// Remember a manual language choice (lang.js reads it on the entry points).
+document.querySelectorAll('.locales a').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('lang',a.getAttribute('lang'));}catch{}}));
 const menu=document.querySelector('.menu-button'),nav=document.getElementById('navigation');
 if(menu&&nav){
  const close=()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');};

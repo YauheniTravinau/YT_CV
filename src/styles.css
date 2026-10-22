@@ -407,3 +407,8 @@ details[open]>summary .plus{transform:rotate(45deg)}
 @media(max-width:1000px){.charts{grid-template-columns:minmax(0,1fr)}.gauges{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:560px){.rank li{grid-template-columns:24px minmax(80px,1fr) minmax(54px,1fr) 40px;gap:9px;font-size:14px}.r-center{font-size:56px}}
 @media(prefers-reduced-motion:reduce){.r-shape,.rk-fill,.g-fill,.r-dot{transition:none!important}}
+
+/* 404 page */
+.notfound{min-height:100svh;display:grid;align-content:center;justify-items:start;gap:18px;padding-block:64px}
+.notfound h1{margin:0;font-size:clamp(40px,7vw,88px);max-width:14em}
+.notfound p{margin:0}.notfound-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}

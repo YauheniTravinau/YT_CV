@@ -43,7 +43,7 @@ for(const lang of ['en','pl','ru']){
    if(info.isDirectory())await stat(resolve(file,'index.html'));
   }
   assert(!html.includes('localhost:3000'));assert(!html.includes('ai-core.glb'));
-  assert.equal([...html.matchAll(/<script\b/g)].length,1+Number(Boolean(process.env.SITE_URL||(process.env.NETLIFY==='true'&&process.env.URL))),'Local script plus optional structured data');
+  assert.equal([...html.matchAll(/<script\b/g)].length,1+Number(route==='')+Number(Boolean(process.env.SITE_URL||(process.env.NETLIFY==='true'&&process.env.URL))),'Local script, language entry script on the root, plus optional structured data');
   assert(!/<script(?![^>]*\bsrc=|[^>]*\btype="application\/ld\+json")/.test(html),'No executable inline JavaScript');
   assert(!/\son(?:click|load|error)\s*=/.test(html),'No inline handlers');
   for(const lang of ['en','pl','ru'])assert(html.includes(`hreflang="${lang}"`),`Missing language alternate: ${route}/${lang}`);
@@ -90,7 +90,8 @@ for(const lang of ['en','pl','ru']){
    const info=await stat(file).catch(()=>null);assert(info,`Broken ${attr}: ${route}/${value}`);
    if(info.isDirectory())await stat(resolve(file,'index.html'));
   }
-  assert.equal([...html.matchAll(/<script\b/g)].length,1+Number(Boolean(process.env.SITE_URL||(process.env.NETLIFY==='true'&&process.env.URL))),`Local script plus optional structured data: ${route}`);
+  assert.equal([...html.matchAll(/<script\b/g)].length,1+Number(lang==='en')+Number(Boolean(process.env.SITE_URL||(process.env.NETLIFY==='true'&&process.env.URL))),`Local script, language entry script on /portfolio/, plus optional structured data: ${route}`);
+  if(lang==='en')assert(html.includes('data-root')&&html.includes('lang.js'),'English portfolio root must negotiate the browser language');
   assert(!/<script(?![^>]*\bsrc=|[^>]*\btype="application\/ld\+json")/.test(html),`No executable inline JavaScript: ${route}`);
   assert(!/\son(?:click|load|error)\s*=/.test(html),`No inline handlers: ${route}`);
   const configuredUrl=process.env.SITE_URL||(process.env.NETLIFY==='true'?process.env.URL:'');
@@ -104,4 +105,12 @@ if(process.env.SITE_URL||(process.env.NETLIFY==='true'&&process.env.URL)){
  assert.equal([...sitemap.matchAll(/<url>/g)].length,6,'Sitemap must list six canonical localized pages');
  assert((await readFile(resolve(root,'dist/robots.txt'),'utf8')).includes('Sitemap: '),'robots.txt must reference sitemap.xml');
 } else assert.equal((await readdir(resolve(root,'dist'))).includes('sitemap.xml'),false,'Do not emit a sitemap without a public base URL');
+{const dist=resolve(root,'dist'),manifest=JSON.parse(await readFile(resolve(dist,'site.webmanifest'),'utf8'));
+ assert(manifest.name&&manifest.short_name&&manifest.icons.length>=3,'Web manifest');
+ for(const icon of manifest.icons)assert((await stat(resolve(dist,icon.src))).size>1000,`Manifest icon: ${icon.src}`);
+ for(const f of ['favicon.ico','apple-touch-icon.png'])assert((await stat(resolve(dist,f))).size>500,`Root icon: ${f}`);
+ const staticDir=(await readdir(resolve(dist,'static')))[0];
+ for(const kind of ['home','portfolio'])for(const l of ['en','pl','ru']){const info=await stat(resolve(dist,'static',staticDir,'assets',`og-${kind}-${l}.jpg`));assert(info.size>20000&&info.size<300000,`Preview card size: og-${kind}-${l}.jpg`);}
+ for(const route of ['','en','pl','ru','portfolio','pl/portfolio','ru/portfolio']){const html=await readFile(resolve(dist,route,'index.html'),'utf8');assert(html.includes('rel="manifest"')&&html.includes('favicon.ico')&&html.includes('favicon-16.png'),`Icon links: ${route}`);assert(html.includes('<link rel="stylesheet"'),`Stylesheet: ${route}`);}
+}
 console.log('PASS: locale parity, 6 case studies, 10 showcase projects, 6 canonical localized URLs plus the language-aware root, anchors/assets/links, safe project URLs, CSP/cache policies and SEO URL configuration');
